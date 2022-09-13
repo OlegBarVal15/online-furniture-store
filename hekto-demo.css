@@ -1,0 +1,151 @@
+.hekto-demo__title {
+}
+.main-title {
+}
+.hekto-demo_options {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #1d3178;
+  margin-bottom: 25px;
+}
+.hekto-demo__container {
+  display: flex;
+}
+.demo-container {
+}
+.demo-container__block {
+  padding: 65px 30px;
+  background: #f8f8fd;
+  border-radius: 3px;
+  width: 65%;
+}
+.demo-container-info {
+  display: flex;
+  justify-content: space-between;
+}
+.demo-container__title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  color: #1d3178;
+  margin-bottom: 42px;
+}
+.demo-container__text {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  color: #c1c8e1;
+}
+.demo-container__input-contacts {
+  border: transparent;
+  border-bottom: 2px solid #bfc6e0;
+  background-color: #f8f8fd;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #c1c8e1;
+  width: 100%;
+  padding-bottom: 13px;
+  margin-top: 41px;
+}
+.demo-container__input-contacts::placeholder {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #c1c8e1;
+}
+.demo-container__contacts::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #bfc6e0;
+  display: block;
+  margin-top: 13px;
+}
+.demo-container__title {
+  margin-top: 109px;
+}
+.demo-container__names {
+  display: flex;
+}
+.demo-container__first-mame {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #c1c8e1;
+}
+.demo-container__last-mame {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #c1c8e1;
+}
+
+.demo-container__input {
+  border: transparent;
+  border-bottom: 2px solid #bfc6e0;
+  background-color: #f8f8fd;
+  width: 48%;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #c1c8e1;
+  padding-bottom: 13px;
+  margin-top: 41px;
+}
+.demo-container__input::placeholder {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #c1c8e1;
+}
+.demo-container__input:last-of-type {
+  margin-left: 24px;
+}
+.demo-container__input:nth-child(5) {
+  margin-right: 24px;
+}
+.demo-container__button {
+  margin-top: 131px;
+  padding: 14px 22px;
+}
+.demo-container__cards {
+  margin-left: 35px;
+}
+/* .demo-container__card {
+  display: flex;
+  align-items: center;
+} */
+/* .curt-card::after {
+  content: "";
+  width: 369px;
+  height: 1px;
+  background-color: #e1e1e4;
+  display: block;
+  margin-top: 15px;
+}  */
+
+.curt-card {
+  display: flex;
+  align-items: center;
+}
+.curt-card__line-line {
+  width: 100%;
+  height: 1px;
+  background-color: #e1e1e4;
+  margin: 15px 15px;
+}
+.demo-container__totals {
+  margin-top: 42px;
+}

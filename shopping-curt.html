@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./shop-list.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./main-title.css" />
+    <link rel="stylesheet" href="./main-list.css" />
+    <link rel="stylesheet" href="./main-button.css" />
+    <link rel="stylesheet" href="./main-link.css" />
+    <link rel="stylesheet" href="./style-grid.css" />
+    <link rel="stylesheet" href="./shopping-curt.css" />
+  </head>
+  <body>
+    <header class="main-page__header header">
+      <div class="header__settings">
+        <div class="wrapper">
+          <div class="header__settings-container">
+            <div class="header__contacts">
+              <div class="header__email">
+                <img src="./assets/icons/letter-icon.svg" alt="mail" />
+                <a class="header__link" href="mailto:mhhasanul@gmail.com"
+                  >mhhasanul@gmail.com</a
+                >
+              </div>
+              <div class="header__phone">
+                <img src="./assets/icons/phone-icon.svg" alt="mail" />
+                <a class="header__link" href="tel:(12345)67890">(12345)67890</a>
+              </div>
+            </div>
+            <div class="header__action action">
+              <nav class="action__menu">
+                <ul class="action__list">
+                  <li class="action__item">
+                    <span>English</span>
+                    <img src="./assets/icons/vector-icon.svg" alt="" />
+                  </li>
+                  <li class="action__item">
+                    <span>USD</span>
+                    <img src="./assets/icons/vector-icon.svg" alt="" />
+                  </li>
+                  <li class="action__item">
+                    <a class="action__link" href=""> Login </a>
+                    <div class="action__icon">
+                      <img src="./assets/icons/user-icon.svg" alt="" />
+                    </div>
+                  </li>
+                  <li class="action__item">
+                    <a class="action__link" href="">Wishlist </a>
+                    <div class="action__icon">
+                      <img
+                        id="wishlist-image"
+                        src="./assets/icons/heart-icon.svg"
+                        alt=""
+                      />
+                    </div>
+                  </li>
+                  <li class="action__item">
+                    <div class="action__icon">
+                      <a class="action__link" href="">
+                        <img src="./assets/icons/cart-icon.svg" alt="" />
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__menu menu">
+        <div class="wrapper">
+          <div class="menu__container">
+            <div class="menu__logo">Hekto</div>
+            <nav class="menu_navigation">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a class="menu__link" href="./index.html">Home</a>
+                  <img
+                    class="menu__image"
+                    src="./assets/icons/vector-pink.svg"
+                    alt=""
+                  />
+                </li>
+
+                <li class="menu__item">
+                  <a class="menu__link" href="./products-brand4.html">Pages</a>
+                  <img
+                    class="menu__image"
+                    src="./assets/icons/vector-pink.svg"
+                    alt=""
+                  />
+                </li>
+
+                <li class="menu__item">
+                  <a class="menu__link" href="./grid-default.html">Products</a>
+                  <img
+                    class="menu__image"
+                    src="./assets/icons/vector-pink.svg"
+                    alt=""
+                  />
+                </li>
+
+                <li class="menu__item">
+                  <a class="menu__link" href="./hekto-demo.html">Blog</a>
+                  <img
+                    class="menu__image"
+                    src="./assets/icons/vector-pink.svg"
+                    alt=""
+                  />
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="./shop-list.html">Shop</a>
+                  <img
+                    class="menu__image"
+                    src="./assets/icons/vector-pink.svg"
+                    alt=""
+                  />
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="./details.html">Contact</a>
+                  <img
+                    class="menu__image"
+                    src="./assets/icons/vector-pink.svg"
+                    alt=""
+                  />
+                </li>
+              </ul>
+            </nav>
+            <div class="menu__search search">
+              <input class="search__input" type="text" />
+              <button class="search__button">
+                <img src="./assets/icons/find-icon.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="shop-grid">
+      <div class="wrapper">
+        <h3 class="shop-grid__title">Shopping Curt</h3>
+        <ul class="shop-grid__list">
+          <li class="shop-grid__item">
+            <div class="shop-grid__point"></div>
+            <a class="shop-grid__link" href="">Home </a>
+          </li>
+          <li class="shop-grid__item">
+            <div class="shop-grid__point"></div>
+            <a class="shop-grid__link" href=""> Pages</a>
+          </li>
+          <li class="shop-grid__item selected">
+            <a class="shop-grid__link" href=""> Shopping Curt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="shopping-curt">
+        <div class="shopping-curt__names">
+          <h3 class="shopping-curt__name">Product</h3>
+          <h3 class="shopping-curt__name">Price</h3>
+          <h3 class="shopping-curt__name">Quantity</h3>
+          <h3 class="shopping-curt__name">Total</h3>
+          <h3 class="shopping-curt__name">Cart Totals</h3>
+        </div>
+        <div class="shopping-curt__container">
+          <div class="shopping-curt__container-cards">
+            <div class="shopping-curt__card curt-card">
+              <div class="curt-card__image-container">
+                <div class="curt-card__image">
+                  <img src="./assets/image/tbf1.png" alt="" />
+                </div>
+
+                <div class="curt-card__icon">
+                  <img src="./assets/icons/zakr.svg" alt="" />
+                </div>
+              </div>
+              <div class="curt-card__info">
+                <p class="curt-card__image-name">Ut diam consequat</p>
+                <p class="curt-card__color">Color:Brown</p>
+                <p class="curt-card__size">Size:XL</p>
+              </div>
+              <p class="curt-card__price">$32.00</p>
+              <div class="curt-card__quantity">
+                <div class="curt-card__minus">
+                  <img src="./assets/icons/mun.svg" alt="" />
+                </div>
+                <div class="curt-card__number">1</div>
+                <div class="curt-card__plus">
+                  <img src="./assets/icons/mun.svg" alt="" />
+                  <img
+                    class="curt-card__image-plus"
+                    src="./assets/icons/plus.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="curt-card__total-price">£219.00</div>
+              </div>
+            </div>
+            <div class="curt-card__line"></div>
+            <div class="shopping-curt__card curt-card">
+              <div class="curt-card__image-container">
+                <div class="curt-card__image">
+                  <img src="./assets/image/cf2.png" alt="" />
+                </div>
+
+                <div class="curt-card__icon">
+                  <img src="./assets/icons/zakr.svg" alt="" />
+                </div>
+              </div>
+              <div class="curt-card__info">
+                <p class="curt-card__image-name">Ut diam consequat</p>
+                <p class="curt-card__color">Color:Brown</p>
+                <p class="curt-card__size">Size:XL</p>
+              </div>
+              <p class="curt-card__price">$32.00</p>
+              <div class="curt-card__quantity">
+                <div class="curt-card__minus">
+                  <img src="./assets/icons/mun.svg" alt="" />
+                </div>
+                <div class="curt-card__number">1</div>
+                <div class="curt-card__plus">
+                  <img src="./assets/icons/mun.svg" alt="" />
+                  <img
+                    class="curt-card__image-plus"
+                    src="./assets/icons/plus.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="curt-card__total-price">£219.00</div>
+              </div>
+            </div>
+            <div class="curt-card__line"></div>
+            <div class="shopping-curt__card curt-card">
+              <div class="curt-card__image-container">
+                <div class="curt-card__image">
+                  <img src="./assets/image/cf3.png" alt="" />
+                </div>
+
+                <div class="curt-card__icon">
+                  <img src="./assets/icons/zakr.svg" alt="" />
+                </div>
+              </div>
+              <div class="curt-card__info">
+                <p class="curt-card__image-name">Ut diam consequat</p>
+                <p class="curt-card__color">Color:Brown</p>
+                <p class="curt-card__size">Size:XL</p>
+              </div>
+              <p class="curt-card__price">$32.00</p>
+              <div class="curt-card__quantity">
+                <div class="curt-card__minus">
+                  <img src="./assets/icons/mun.svg" alt="" />
+                </div>
+                <div class="curt-card__number">1</div>
+                <div class="curt-card__plus">
+                  <img src="./assets/icons/mun.svg" alt="" />
+                  <img
+                    class="curt-card__image-plus"
+                    src="./assets/icons/plus.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="curt-card__total-price">£219.00</div>
+              </div>
+            </div>
+            <div class="curt-card__line"></div>
+            <div class="shopping-curt__card curt-card">
+              <div class="curt-card__image-container">
+                <div class="curt-card__image">
+                  <img src="./assets/image/cf4.png" alt="" />
+                </div>
+
+                <div class="curt-card__icon">
+                  <img src="./assets/icons/zakr.svg" alt="" />
+                </div>
+              </div>
+              <div class="curt-card__info">
+                <p class="curt-card__image-name">Ut diam consequat</p>
+                <p class="curt-card__color">Color:Brown</p>
+                <p class="curt-card__size">Size:XL</p>
+              </div>
+              <p class="curt-card__price">$32.00</p>
+              <div class="curt-card__quantity">
+                <div class="curt-card__minus">
+                  <img src="./assets/icons/mun.svg" alt="" />
+                </div>
+                <div class="curt-card__number">1</div>
+                <div class="curt-card__plus">
+                  <img src="./assets/icons/mun.svg" alt="" />
+                  <img
+                    class="curt-card__image-plus"
+                    src="./assets/icons/plus.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="curt-card__total-price">£219.00</div>
+              </div>
+            </div>
+            <div class="curt-card__line"></div>
+            <div class="shopping-curt__card curt-card">
+              <div class="curt-card__image-container">
+                <div class="curt-card__image">
+                  <img src="./assets/image/cf5.png" alt="" />
+                </div>
+
+                <div class="curt-card__icon">
+                  <img src="./assets/icons/zakr.svg" alt="" />
+                </div>
+              </div>
+              <div class="curt-card__info">
+                <p class="curt-card__image-name">Ut diam consequat</p>
+                <p class="curt-card__color">Color:Brown</p>
+                <p class="curt-card__size">Size:XL</p>
+              </div>
+              <p class="curt-card__price">$32.00</p>
+              <div class="curt-card__quantity">
+                <div class="curt-card__minus">
+                  <img src="./assets/icons/mun.svg" alt="" />
+                </div>
+                <div class="curt-card__number">1</div>
+                <div class="curt-card__plus">
+                  <img src="./assets/icons/mun.svg" alt="" />
+                  <img
+                    class="curt-card__image-plus"
+                    src="./assets/icons/plus.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="curt-card__total-price">£219.00</div>
+              </div>
+            </div>
+            <div class="curt-card__line"></div>
+            <div class="shopping-curt__buttons">
+              <button class="shopping-curt__update-button main-button">
+                Update Curt
+              </button>
+              <button class="shopping-curt__clear-button main-button">
+                Clear Curt
+              </button>
+            </div>
+          </div>
+          <div class="shopping-curt__totals-container">
+            <div class="shopping-curt__totals curt-totals">
+              <div class="curt-totals__totals">
+                <div class="curt-totals__subtotals">Subtotals:</div>
+                <div class="curt-totals__subtotals-summary">£219.00</div>
+              </div>
+              <div class="curt-card__line-totals"></div>
+              <div class="curt-totals__totals">
+                <div class="curt-totals__totals">Totals:</div>
+                <div class="curt-totals__totals-summary">£325.00</div>
+              </div>
+              <div class="curt-card__line-totals"></div>
+              <label class="curt-card__label" for="curt-checkbox">
+                <input
+                  class="curt-card__input"
+                  type="checkbox"
+                  id="curt-checkbox"
+                />
+                <span class="curt-card__label-text">
+                  Shipping & taxes calculated at checkout</span
+                >
+                <img
+                  class="curt-card__label-icon"
+                  src="./assets/icons/blue-vector.svg"
+                  alt=""
+                />
+              </label>
+
+              <div class="curt-totals__button">Proceed To Checkout</div>
+            </div>
+            <h3 class="shopping-curt__title">Calculate Shopping</h3>
+            <div class="shopping-curt__calculate curt-calculate">
+              <div class="curt-calculate__city-from">Bangladesh</div>
+              <div class="curt-calculate__line"></div>
+              <div class="curt-calculate__city-to">Mirpur Dhaka - 1200</div>
+              <div class="curt-calculate__line"></div>
+              <div class="curt-calculate__code">Postal Code</div>
+              <div class="curt-calculate__line"></div>
+              <button class="curt-calculate__button main-button">
+                Calculate Shiping
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__container">
+          <div class="footer__form">
+            <a class="footer__logo" href="">Hekto</a>
+            <div class="footer__input-container">
+              <input
+                class="footer__input"
+                type="text"
+                placeholder="Enter Email Address"
+              />
+              <button class="footer__button">Sign Up</button>
+            </div>
+            <div class="footer__links">
+              <a class="footer__contacts" href="">Contact Info</a>
+              <a class="footer__adress" href=""
+                >17 Princess Road, London, Greater London NW1 8JR, UK</a
+              >
+            </div>
+          </div>
+          <div class="footer__catagories">
+            <a class="footer__catagories-logo" href="">Catagories</a>
+            <a class="footer__catagories-link" href="">Laptops & Computers</a>
+            <a class="footer__catagories-link" href="">Cameras & Photography</a>
+            <a class="footer__catagories-link" href=""
+              >Smart Phones & Tablets</a
+            >
+            <a class="footer__catagories-link" href=""
+              >Video Games & Consoles</a
+            >
+            <a class="footer__catagories-link" href="">Waterproof Headphones</a>
+          </div>
+          <div class="footer__catagories">
+            <a class="footer__catagories-logo" href="">Customer Care</a>
+            <a class="footer__catagories-link" href="">My Account</a>
+            <a class="footer__catagories-link" href="">Discount</a>
+            <a class="footer__catagories-link" href="">Returns</a>
+            <a class="footer__catagories-link" href="">Orders History</a>
+            <a class="footer__catagories-link" href="">Order Tracking</a>
+          </div>
+          <div class="footer__catagories">
+            <a class="footer__catagories-logo" href="">Pages</a>
+            <a class="footer__catagories-link" href="">Blog</a>
+            <a class="footer__catagories-link" href="">Browse the Shop</a>
+            <a class="footer__catagories-link" href="">Category</a>
+            <a class="footer__catagories-link" href="">Pre-Built Pages</a>
+            <a class="footer__catagories-link" href=""
+              >Visual Composer Elements</a
+            >
+            <a class="footer__catagories-link" href="">WooCommerce Pages</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="footer__socials">
+      <div class="wrapper">
+        <div class="footer__social-container">
+          <div class="footer__socials-copyright">
+            <a class="footer__web-logo" href="">©Webecy </a>
+            <span class="footer__web-logo"> - All Rights Reserved</span>
+          </div>
+          <ul class="footer__socials-list">
+            <li class="footer__socials-item">
+              <a class="footer__socials-link" href="">
+                <img src="./assets/icons/tw.svg" alt="" />
+              </a>
+            </li>
+            <li class="footer__socials-item">
+              <a class="footer__socials-link" href="">
+                <img src="./assets/icons/inst.svg" alt="" />
+              </a>
+            </li>
+            <li class="footer__socials-item">
+              <a class="footer__socials-link" href="">
+                <img src="./assets/icons/face.svg" alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

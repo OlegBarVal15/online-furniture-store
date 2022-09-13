@@ -1,0 +1,331 @@
+.shopping-curt__container {
+  display: flex;
+}
+.shopping-curt {
+  padding-bottom: 145px;
+  padding-top: 131px;
+}
+.shopping-curt__names {
+  display: flex;
+  padding-bottom: 24px;
+}
+.shopping-curt__name {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  color: #1d3178;
+}
+.shopping-curt__name:nth-child(1),
+.shopping-curt__name:nth-child(4) {
+  margin-right: 226px;
+}
+.shopping-curt__name:nth-child(2) {
+  margin-right: 104px;
+}
+.shopping-curt__name:nth-child(3) {
+  margin-right: 122px;
+}
+.shopping-curt__card {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+}
+/* .shopping-curt__card::after {
+    content: "";
+    content: "";
+    width: 100%;
+    height: 1px;
+    display: block;
+    background-color: #e1e1e4;
+  } */
+.curt-card__image-container {
+  position: relative;
+}
+.curt-card__icon {
+  position: absolute;
+  top: -4px;
+  right: -3px;
+}
+.curt-card__info {
+  margin-left: 17px;
+}
+.curt-card__image-name {
+  font-family: "Josefin Sans", serif;
+  font-size: 14px;
+  color: black;
+  font-weight: 600;
+}
+.curt-card__color {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 12px;
+  color: #a1a8c1;
+}
+.curt-card__size {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 12px;
+  color: #a1a8c1;
+}
+.curt-card__price {
+  margin-left: 89px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  color: #15245e;
+}
+.curt-card__quantity {
+  display: flex;
+  align-items: center;
+  margin-left: 125px;
+  width: 60px;
+  height: 15px;
+}
+.curt-card__plus {
+  position: relative;
+}
+.curt-card__image-plus {
+  position: absolute;
+  top: 4px;
+  left: 3px;
+}
+.curt-card__minus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15px;
+  width: 12px;
+  background: #f0eff2;
+  padding-left: 4px;
+}
+.curt-card__number {
+  font-family: "Josefin Sans";
+  font-size: 12px;
+  background: #f0eff2;
+  color: #bebfc2;
+  padding-left: 10px;
+  padding-right: 14px;
+  height: 15px;
+  width: 12px;
+}
+.curt-card__plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15px;
+  width: 12px;
+  background: #f0eff2;
+  margin-right: 140px;
+  padding-right: 4px;
+}
+.curt-card__total-price {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  color: #15245e;
+}
+.curt-card__line {
+  width: 718px;
+  height: 1px;
+  display: block;
+  background-color: #e1e1e4;
+  margin-top: 15px;
+}
+.shopping-curt__totals-container {
+  margin-left: 95px;
+}
+.shopping-curt__totals {
+  height: 284px;
+  width: 371px;
+  border-radius: 3px;
+  background: #f4f4fc;
+  margin-top: 42px;
+  padding: 34px 31px 32px 29px;
+}
+.curt-totals {
+}
+.curt-totals__totals {
+  display: flex;
+  justify-content: space-between;
+}
+/* .curt-totals__totals::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    display: block;
+    background-color: #e1e1e4;
+  } */
+.curt-card__line-totals {
+  width: 100%;
+  height: 2px;
+  display: block;
+  background-color: #e8e6f1;
+  margin-top: 13px;
+}
+
+.curt-totals__subtotals {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #1d3178;
+}
+.curt-totals__subtotals-summary {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #15245e;
+}
+
+.curt-totals__totals {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #1d3178;
+}
+.curt-totals__totals:not(:first-child) {
+  margin-top: 34px;
+}
+.curt-totals__totals-summary {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #15245e;
+}
+.curt-totals__text {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #8a91ab;
+}
+.curt-totals__button {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  background: #19d16f;
+  border-radius: 3px;
+  padding: 11px 80px;
+  height: 40px;
+  width: 312px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+.curt-card__label .curt-card__label-text {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.curt-card__label .curt-card__label-icon {
+  display: flex;
+  align-items: center;
+}
+.curt-card__input {
+  opacity: 0;
+  width: 0px;
+  height: 0px;
+}
+.curt-card__label .curt-card__label-text::before {
+  content: "";
+  display: block;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 12px;
+  height: 12px;
+  background: #a59fc1;
+  border-radius: 3px;
+  margin-right: 7px;
+}
+.curt-card__label .curt-card__label-text::after {
+  content: "";
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 50;
+  width: 12px;
+  height: 12px;
+  background: url(./assets/icons/vector-blue.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 3px;
+}
+.curt-card__label .curt-card__label-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.curt-card__input:checked + .curt-card__label-text::after {
+  display: block;
+  background-color: #19d16f;
+}
+/* .curt-card__label .curt-card__input:checked {
+    background: #19d16f;
+  } */
+.curt-card__label-text {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #8a91ab;
+}
+.shopping-curt__title {
+  text-align: center;
+  margin-top: 38px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  color: #1d3178;
+  margin-bottom: 26px;
+}
+.shopping-curt__calculate {
+  height: 284px;
+  width: 371px;
+  border-radius: 3px;
+  background: #f4f4fc;
+  padding: 30px 32px 21px 32px;
+}
+.curt-calculate__city-from {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  color: #c5cbe3;
+}
+.curt-calculate__line {
+  width: 100%;
+  height: 2px;
+  display: block;
+  background-color: #e8e6f1;
+  margin-top: 13px;
+}
+.curt-calculate__line:not(:last-of-type) {
+  margin-bottom: 38px;
+}
+.curt-calculate__city-to {
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  line-height: 16px;
+  color: #c5cbe3;
+}
+.curt-calculate__code {
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  color: #c5cbe3;
+}
+.curt-calculate__button {
+  padding: 13px 24px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.shopping-curt__buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 37px;
+}
+.shopping-curt__update-button {
+  padding: 12px 20px;
+  cursor: pointer;
+}
+.shopping-curt__clear-button {
+  padding: 12px 20px;
+  cursor: pointer;
+}

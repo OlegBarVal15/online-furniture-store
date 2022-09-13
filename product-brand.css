@@ -1,0 +1,238 @@
+.page-container {
+  display: flex;
+  /* padding: 0px 0px 0px 255px; */
+}
+.container-list {
+  width: 80%;
+}
+.meta-container {
+  padding: 33px 0px 0px 0px;
+  width: 20%;
+}
+.wrapper {
+  max-width: 1233px;
+  margin: 0 auto;
+}
+.product-brand {
+}
+.product-brand__title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  color: #151875;
+  font-weight: bold;
+  margin-bottom: 11px;
+  max-width: max-content;
+}
+.product-brand__title::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #000000;
+  margin-bottom: 24px;
+}
+.product-brand__llst {
+  margin-bottom: 70px;
+}
+.product-brand__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.input-container__input {
+  background: #e5e0fc;
+}
+.input-container__label {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #7e81a2;
+  /* margin-left: 9px; */
+}
+.shop-card__quantity {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 12px;
+  color: #000000;
+  margin-left: 4px;
+}
+.shop-card__rating img {
+  width: 12px;
+  height: 12px;
+}
+/* .brand-product-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 0px 0px;
+  width: 90%;
+  border: 1px solid #bcbddb;
+}
+.product-search__button {
+  padding: 8px 14px 7px 72px;
+  background-color: transparent;
+}
+.product-search__input {
+}
+.product-search {
+}
+.product-search__text {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(21, 24, 117, 0.1);
+  padding-left: 12px;
+} */
+.brand-product-search {
+  border: 1px solid #bcbddb;
+  display: flex;
+  align-items: center;
+  width: 203px;
+  height: 31px;
+  border-radius: 3px;
+  padding: 8px 14px 7px 12px;
+}
+.product-search__input {
+  border: none;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: black;
+  height: 100%;
+  width: 100%;
+}
+.product-search__button {
+  background: transparent;
+}
+.card-text {
+  width: 100%;
+}
+/* #product-checkbox:checked + #test-label {
+  color: red;
+} 
+#test-label4, 
+#test-label3,
+#test-label2,
+#test-label1,
+#categories-label1,
+#categories-label2,
+#categories-label3,
+#categories-label4,
+#categories-label5,
+#categories-label6,
+#categories-label7,
+#categories-label8,
+#categories-label9 {
+  width: 16px;
+  height: 16px;
+  border-radius: 10%;
+  position: relative;
+  background: #ffdbf1;
+}
+ #product-checkbox4:checked + #test-label4, 
+#product-checkbox3:checked + #test-label3,
+#product-checkbox2:checked + #test-label2,
+#product-checkbox1:checked + #test-label1,
+#categories-checkbox1:checked + #categories-label1,
+#categories-checkbox2:checked + #categories-label2,
+#categories-checkbox3:checked + #categories-label3,
+#categories-checkbox4:checked + #categories-label4,
+#categories-checkbox5:checked + #categories-label5,
+#categories-checkbox6:checked + #categories-label6,
+#categories-checkbox7:checked + #categories-label7,
+#categories-checkbox8:checked + #categories-label8,
+#categories-checkbox9:checked + #categories-label9 {
+  background: #ff3eb2;
+}
+#product-checkbox4, 
+#product-checkbox3,
+#product-checkbox2,
+#product-checkbox1,
+#categories-checkbox1,
+#categories-checkbox2,
+#categories-checkbox3,
+#categories-checkbox4,
+#categories-checkbox5,
+#categories-checkbox6,
+#categories-checkbox7,
+#categories-checkbox8,
+#categories-checkbox9 {
+  display: none;
+}
+
+.input-container__foto {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input-container__foto-white {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#product-checkbox4 + #test-label4 .input-container__foto-white, 
+#product-checkbox3 + #test-label3 .input-container__foto-white,
+#product-checkbox2 + #test-label2 .input-container__foto-white,
+#product-checkbox1 + #test-label1 .input-container__foto-white,
+#categories-checkbox1 + #categories-label1 .input-container__foto-white,
+#categories-checkbox2 + #categories-label2 .input-container__foto-white,
+#categories-checkbox3 + #categories-label3 .input-container__foto-white,
+#categories-checkbox4 + #categories-label4 .input-container__foto-white,
+#categories-checkbox5 + #categories-label5 .input-container__foto-white,
+#categories-checkbox6 + #categories-label6 .input-container__foto-white,
+#categories-checkbox7 + #categories-label7 .input-container__foto-white,
+#categories-checkbox8 + #categories-label8 .input-container__foto-white,
+#categories-checkbox9 + #categories-label9 .input-container__foto-white {
+  display: none;
+}
+
+ #product-checkbox4:checked + #test-label4 .input-container__foto-white, 
+#product-checkbox3:checked + #test-label3 .input-container__foto-white,
+#product-checkbox2:checked + #test-label2 .input-container__foto-white,
+#product-checkbox1:checked + #test-label1 .input-container__foto-white,
+#categories-checkbox1:checked + #categories-label1 .input-container__foto-white,
+#categories-checkbox2:checked + #categories-label2 .input-container__foto-white,
+#categories-checkbox3:checked + #categories-label3 .input-container__foto-white,
+#categories-checkbox4:checked + #categories-label4 .input-container__foto-white,
+#categories-checkbox5:checked + #categories-label5 .input-container__foto-white,
+#categories-checkbox6:checked + #categories-label6 .input-container__foto-white,
+#categories-checkbox7:checked + #categories-label7 .input-container__foto-white,
+#categories-checkbox8:checked + #categories-label8 .input-container__foto-white,
+#categories-checkbox9:checked
+  + #categories-label9
+  .input-container__foto-white {
+  display: block;
+}
+
+ #test-label4-1, 
+#test-label3-1,
+#test-label2-1,
+#test-label1-1 {
+  margin-left: 9px;
+}
+.product-brand__item .input-container__label:nth-child(2) {
+  margin-left: 0px;
+} */
+.input-container__text {
+  margin-left: 9px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #989bb5;
+}
+.input-container__text-categories {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #7e81a2;
+  margin-left: 9px;
+}
